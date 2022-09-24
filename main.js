@@ -2,7 +2,7 @@ import "./style.css";
 
 const CreativeEditor = (el, classList) => {
   const canvas = document.createElement("canvas")
-  canvas.classList.add = [...classList, 'vtpk-canvas']
+  canvas.className = [...classList, 'vtpk-canvas'].join(' ')
   el.appendChild(canvas);
 };
 
