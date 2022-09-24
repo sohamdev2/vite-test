@@ -6,4 +6,4 @@ const setupCanvas = (el, classList) => {
   el.appendChild(canvas);
 };
 
-export { default as setupCanvas };
+export { setupCanvas };
