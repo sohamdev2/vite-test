@@ -11,7 +11,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "main.js"),
       name: "vite-test",
-      fileName: (ext) => `index.${ext}.js`,
+      fileName: 'index',
       formats: ["es", "cjs", "umd"],
     },
     sourcemap: true,
