@@ -1,9 +1,9 @@
 import "./style.css";
 
-const setupCanvas = (el, classList) => {
+const CreativeEditor = (el, classList) => {
   const canvas = document.createElement("canvas")
-  canvas.classList = [...classList, 'vtpk-canvas']
+  canvas.classList.add = [...classList, 'vtpk-canvas']
   el.appendChild(canvas);
 };
 
-export { setupCanvas };
+export default CreativeEditor;
