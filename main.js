@@ -1,5 +1,5 @@
 import "./style.css";
-import { CEButton } from "./components";
+import { CEButton, CENavigation } from "./components";
 
 const CreativeEditor = (el, classList) => {
   const canvas = document.createElement("canvas");
@@ -8,4 +8,4 @@ const CreativeEditor = (el, classList) => {
 };
 
 export default CreativeEditor;
-export { CreativeEditor, CEButton };
+export { CreativeEditor, CEButton, CENavigation };
