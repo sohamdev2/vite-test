@@ -1,5 +1,5 @@
 import "./style.css";
-import { CEButton } from "./src/index";
+import { CEButton } from "./components";
 
 const CreativeEditor = (el, classList) => {
   const canvas = document.createElement("canvas");
