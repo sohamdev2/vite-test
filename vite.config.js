@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import path, { resolve } from "path";
-import { createVuePlugin } from 'vite-plugin-vue2'
+import { createVuePlugin } from "vite-plugin-vue2";
 
 export default defineConfig({
   // resolve: {
@@ -17,4 +17,10 @@ export default defineConfig({
     sourcemap: true,
   },
   plugins: [createVuePlugin()],
+  rollupOptions: {
+    external: ["vue"],
+    output: {
+      global: { vue: "Vue" },
+    },
+  },
 });

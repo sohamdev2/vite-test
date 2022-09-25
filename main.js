@@ -1,11 +1,14 @@
 import "./style.css";
-import { CEButton, CENavigation } from "./components";
+import { CEEditor } from "./components";
 
-const CreativeEditor = (el, classList) => {
-  const canvas = document.createElement("canvas");
-  canvas.className = [...classList, "vtpk-canvas"].join(" ");
-  el.appendChild(canvas);
+// const CreativeEditor = (el, classList) => {
+//   const canvas = document.createElement("canvas");
+//   canvas.className = [...classList, "vtpk-canvas"].join(" ");
+//   el.appendChild(canvas);
+// };
+
+export default CEEditor;
+export {
+  // CreativeEditor,
+  CEEditor,
 };
-
-export default CreativeEditor;
-export { CreativeEditor, CEButton, CENavigation };

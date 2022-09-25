@@ -1,8 +1,8 @@
 <template>
-  <button>CEButton</button>
+  <div class="CE__header">header</div>
 </template>
 <script>
 export default {
-  name: "CEButton",
+  name: "CEHeader",
 };
 </script>
